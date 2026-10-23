@@ -12,7 +12,7 @@ redirect_from:
 
 我是**鲁一丁（Yiding Lu）**，目前是[四川大学](https://www.scu.edu.cn/)计算机学院计算机科学与技术专业的直博研究生，在 [XLearning Lab](https://xlearning-lab.com/) 开展研究，导师为[彭玺教授](https://pengxi.me/)。我于 2022 年在四川大学获得本科学历，预计于 **2028 年 6 月博士毕业**。
 
-我的研究方向包括**虚拟细胞与细胞扰动预测、多模态学习、深度聚类**。已有工作涵盖不完整多视图数据的表示学习、基于视觉语言模型的交互式检索，以及细胞对扰动的响应预测。希望在博士毕业后从事 **AI Researcher** 相关工作，关注机器学习方法在科学发现中的应用。
+我的研究方向包括**虚拟细胞与细胞扰动预测、多模态学习、深度聚类**。已有工作涵盖不完整多视图数据的表示学习、基于视觉语言模型的交互式检索，以及细胞对扰动的响应预测。
 
 <div class="research-highlight">
   <strong>2025 虚拟细胞挑战赛 · 全球亚军</strong>
@@ -20,7 +20,6 @@ redirect_from:
 </div>
 
 <h1 id="publications">学术论文</h1>
-<p class="section-note">以下为正式发表的论文，姓名加粗；* 表示共同第一作者。</p>
 
 {% for paper in site.data.publications %}
   {% include publication.html paper=paper %}
