@@ -5,7 +5,7 @@ The profile uses the owner's supplied biography and résumé for education, rese
 ## Publications
 
 - LLaVA-ReID: https://proceedings.mlr.press/v267/lu25s.html
-  - Illustration: `img/illustration.png` in https://github.com/XLearning-SCU/LLaVA-ReID
+  - Illustration: a crop of the task comparison panel from `img/poster-wo-wechat.png` in https://github.com/XLearning-SCU/LLaVA-ReID
 - Visual Abstraction: https://proceedings.mlr.press/v267/ding25b.html
   - Illustration: `figures/VISA.png` in https://github.com/XLearning-SCU/2025-ICML-VISA
 - DIVIDE: https://ojs.aaai.org/index.php/AAAI/article/view/29330
@@ -16,7 +16,7 @@ The profile uses the owner's supplied biography and résumé for education, rese
   - Illustration: `Fig2.png` in https://github.com/XLearning-SCU/2023-TPAMI-SMILE
   - The venue label uses the 2023 online publication year, consistent with the authors' paper page and repository.
 
-Official repository images were resized and converted to WebP for web loading; their content was not redrawn. Summaries are written for this homepage using the published abstracts and author descriptions. Paper author order follows the publications.
+The LLaVA-ReID poster was cropped to its task comparison panel. Official repository images were resized and converted to WebP for web loading; their content was not redrawn. Summaries are written for this homepage using the published abstracts and author descriptions. Paper author order follows the publications.
 
 ## Awards
 
