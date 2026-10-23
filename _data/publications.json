@@ -7,7 +7,7 @@
     "summary": "面向初始描述不完整的行人检索，提出通过多轮对话逐步补全信息的交互式检索任务。利用候选图像中的细粒度差异和对话上下文生成针对性问题，并以高信息量问题作为训练监督，逐步缩小候选范围。",
     "paper_url": "https://proceedings.mlr.press/v267/lu25s.html",
     "code_url": "https://github.com/XLearning-SCU/LLaVA-ReID",
-    "image": "images/publications/llava-reid.webp",
+    "image": "images/publications/llava-reid-task.webp",
     "image_alt": "LLaVA-ReID 官方海报中的文本检索与交互式行人检索对比图"
   },
   {
