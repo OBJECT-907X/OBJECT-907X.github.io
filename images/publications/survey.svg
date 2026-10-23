@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="540" viewBox="0 0 900 540" role="img" aria-labelledby="title desc">
+<title id="title">Prior knowledge for deep clustering</title><desc id="desc">A summary diagram of the six categories of priors reviewed in the survey.</desc>
+<rect width="900" height="540" rx="18" fill="#f8fafe"/>
+<g font-family="Arial, sans-serif" text-anchor="middle">
+<text x="450" y="65" font-size="29" font-weight="700" fill="#263447">Deep clustering through its priors</text>
+<text x="450" y="101" font-size="19" fill="#647184">How prior knowledge provides supervision</text>
+<g fill="none" stroke="#c4d5e9" stroke-width="3"><path d="M450 150V190M155 190H745M155 190V220M450 190V220M745 190V220M155 325V360M450 325V360M745 325V360"/></g>
+<rect x="310" y="125" width="280" height="54" rx="10" fill="#164d89"/><text x="450" y="160" fill="white" font-size="23">Prior knowledge</text>
+<g fill="white" stroke="#cfdaea" stroke-width="2"><rect x="35" y="220" width="240" height="105" rx="10"/><rect x="330" y="220" width="240" height="105" rx="10"/><rect x="625" y="220" width="240" height="105" rx="10"/><rect x="35" y="360" width="240" height="105" rx="10"/><rect x="330" y="360" width="240" height="105" rx="10"/><rect x="625" y="360" width="240" height="105" rx="10"/></g>
+<g fill="#164d89" font-size="23" font-weight="600"><text x="155" y="265">Structure</text><text x="450" y="265">Distribution</text><text x="745" y="260">Augmentation</text><text x="745" y="289">invariance</text><text x="155" y="401">Neighborhood</text><text x="155" y="430">consistency</text><text x="450" y="405">Pseudo labels</text><text x="745" y="401">External</text><text x="745" y="430">knowledge</text></g>
+<g fill="#647184" font-size="17"><text x="155" y="295">Relations in data</text><text x="450" y="295">Latent populations</text><text x="450" y="435">Confident predictions</text></g>
+<text x="450" y="510" fill="#647184" font-size="17">Lu et al. · Vicinagearth 2024 · Concept summary</text>
+</g></svg>

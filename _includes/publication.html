@@ -1,0 +1,16 @@
+{% assign paper = include.paper %}
+<article class="publication" aria-labelledby="paper-{{ paper.id }}">
+  <a class="publication-figure" href="{{ paper.paper_url }}" target="_blank" rel="noopener noreferrer" aria-label="Read {{ paper.title | escape }}">
+    <img src="{{ paper.image }}" alt="{{ paper.image_alt | escape }}" loading="lazy" decoding="async">
+  </a>
+  <div class="publication-details">
+    <span class="publication-venue">{{ paper.venue }}</span>
+    <h2 id="paper-{{ paper.id }}"><a href="{{ paper.paper_url }}" target="_blank" rel="noopener noreferrer">{{ paper.title }}</a></h2>
+    <p class="publication-authors">{{ paper.authors }}</p>
+    <p class="publication-summary">{{ paper.summary }}</p>
+    <div class="publication-links">
+      <a href="{{ paper.paper_url }}" target="_blank" rel="noopener noreferrer">Paper <span aria-hidden="true">↗</span></a>
+      {% if paper.code_url %}<a href="{{ paper.code_url }}" target="_blank" rel="noopener noreferrer">Code <span aria-hidden="true">↗</span></a>{% endif %}
+    </div>
+  </div>
+</article>
