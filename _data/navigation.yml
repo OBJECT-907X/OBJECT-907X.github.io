@@ -1,12 +1,12 @@
 main:
-  - title: "About Me"
+  - title: "关于我"
     url: "/#about-me"
 
-  - title: "Publications"
+  - title: "学术论文"
     url: "/#publications"
 
-  - title: "Honors & Awards"
+  - title: "荣誉与获奖"
     url: "/#honors-and-awards"
 
-  - title: "Education"
+  - title: "教育经历"
     url: "/#education"

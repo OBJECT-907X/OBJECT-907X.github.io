@@ -4,53 +4,53 @@
     "title": "LLaVA-ReID: Selective Multi-image Questioner for Interactive Person Re-Identification",
     "venue": "ICML 2025",
     "authors": "<strong>Yiding Lu</strong>, Mouxing Yang, Dezhong Peng, Peng Hu, Yijie Lin, Xi Peng",
-    "summary": "Introduces interactive person re-identification, where a vision-language model asks targeted questions to refine an incomplete description. Selective multi-image context and informative question supervision help distinguish visually similar candidates over multiple rounds of dialogue.",
+    "summary": "面向初始描述不完整的行人检索，提出通过多轮对话逐步补全信息的交互式检索任务。利用候选图像中的细粒度差异和对话上下文生成针对性问题，并以高信息量问题作为训练监督，逐步缩小候选范围。",
     "paper_url": "https://proceedings.mlr.press/v267/lu25s.html",
     "code_url": "https://github.com/XLearning-SCU/LLaVA-ReID",
     "image": "images/publications/llava-reid.webp",
-    "image_alt": "Comparison of text-based and interactive person re-identification, extracted from the official LLaVA-ReID poster"
+    "image_alt": "LLaVA-ReID 官方海报中的文本检索与交互式行人检索对比图"
   },
   {
     "id": "visa",
     "title": "Visual Abstraction: A Plug-and-Play Approach for Text-Visual Retrieval",
     "venue": "ICML 2025",
     "authors": "Guofeng Ding, <strong>Yiding Lu</strong>, Peng Hu, Mouxing Yang, Yijie Lin, Xi Peng",
-    "summary": "Improves text-to-image and text-to-video retrieval at test time by converting visual content into semantic descriptions. Query-guided question answering captures the level of detail a user needs, providing a plug-and-play enhancement to existing retrieval systems.",
+    "summary": "针对文本与视觉内容之间的语义冗余和粒度不匹配，在测试阶段将图像或视频转化为语义描述，再通过查询引导的问答补充关键细节。无需重新训练原有检索模型，即可作为即插即用模块提升图文和文视频检索效果。",
     "paper_url": "https://proceedings.mlr.press/v267/ding25b.html",
     "code_url": "https://github.com/XLearning-SCU/2025-ICML-VISA",
     "image": "images/publications/visa.webp",
-    "image_alt": "Visual abstraction example showing query-specific attention to details in a snowy street scene"
+    "image_alt": "视觉抽象示例：根据不同查询关注雪地场景中的相关细节"
   },
   {
     "id": "divide",
     "title": "Decoupled Contrastive Multi-View Clustering with High-Order Random Walks",
     "venue": "AAAI 2024",
     "authors": "<strong>Yiding Lu</strong>, Yijie Lin, Mouxing Yang, Dezhong Peng, Peng Hu, Xi Peng",
-    "summary": "DIVIDE uses high-order random walks to identify misleading positive and negative pairs beyond local neighborhoods. Decoupled contrastive objectives preserve view-specific information while learning cross-view consistency, supporting clustering with complete or missing views.",
+    "summary": "针对多视图对比学习中的假正样本与假负样本问题，利用高阶随机游走挖掘超越局部邻域的样本关系。通过解耦视图内与视图间的对比目标，在保留视图特有信息的同时学习跨视图一致性，支持完整和缺失视图下的聚类。",
     "paper_url": "https://ojs.aaai.org/index.php/AAAI/article/view/29330",
     "code_url": "https://github.com/XLearning-SCU/2024-AAAI-DIVIDE",
     "image": "images/publications/divide.webp",
-    "image_alt": "DIVIDE architecture with decoupled multi-view contrastive learning and random-walk pair correction"
+    "image_alt": "DIVIDE 框架：解耦多视图对比学习与随机游走样本关系校正"
   },
   {
     "id": "survey",
     "title": "A Survey on Deep Clustering: From the Prior Perspective",
     "venue": "Vicinagearth 2024",
     "authors": "<strong>Yiding Lu*</strong>, Haobin Li*, Yunfan Li, Yijie Lin, Xi Peng",
-    "summary": "Organizes deep clustering around six types of prior knowledge, connecting data structure, distribution assumptions, invariance, and external knowledge. The survey includes a five-dataset benchmark and examines how these priors shape representation learning and clustering.",
+    "summary": "从先验知识的视角梳理深度聚类，将现有方法归纳为结构、分布、增强不变性、邻域一致性、伪标签和外部知识六类。结合五个常用数据集上的基准实验，分析不同先验如何影响表示学习和聚类，并讨论后续研究方向。",
     "paper_url": "https://doi.org/10.1007/s44336-024-00001-w",
     "image": "images/publications/survey.svg",
-    "image_alt": "Six deep clustering priors: structure, distribution, augmentation invariance, neighborhood consistency, pseudo labels, and external knowledge"
+    "image_alt": "深度聚类的六类先验知识概览"
   },
   {
     "id": "smile",
     "title": "Semantic Invariant Multi-View Clustering With Fully Incomplete Information",
-    "venue": "IEEE TPAMI · Online 2023",
+    "venue": "IEEE TPAMI · 2023 年在线发表",
     "authors": "Pengxin Zeng, Mouxing Yang, <strong>Yiding Lu</strong>, Changqing Zhang, Peng Hu, Xi Peng",
-    "summary": "SMILE learns shared semantics across views without requiring paired samples. Semantic invariance supports clustering, cross-view realignment, and missing-data recovery even when correspondences and observations are fully incomplete.",
+    "summary": "面向跨视图对应关系和样本观测均可能缺失的情形，利用语义分布的不变性学习跨视图共识，无需依赖成对样本。学习到的语义表示可用于重建对应关系、补全缺失信息并完成聚类。",
     "paper_url": "https://doi.org/10.1109/TPAMI.2023.3332967",
     "code_url": "https://github.com/XLearning-SCU/2023-TPAMI-SMILE",
     "image": "images/publications/smile.webp",
-    "image_alt": "SMILE framework for learning semantic invariance from incomplete multi-view data"
+    "image_alt": "SMILE 框架：通过语义不变性学习处理不完整多视图信息"
   }
 ]

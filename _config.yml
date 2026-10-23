@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Yiding Lu | 鲁一丁"
-description              : "Ph.D. Student in Computer Science · Virtual Cells · Multimodal Learning"
+description              : "博士研究生 · 虚拟细胞 · 多模态学习"
 repository               : "OBJECT-907X/OBJECT-907X.github.io"
 url                      : "https://object-907x.github.io"
 google_scholar_stats_use_cdn : false
@@ -25,8 +25,8 @@ author:
   name             : "Yiding Lu"
   chinese_name     : "鲁一丁"
   avatar           : "images/yiding-lu.jpeg"
-  bio              : "Sichuan University · XLearning Lab"
-  location         : "Chengdu, China"
+  bio              : "四川大学 · XLearning Lab"
+  location         : "中国 · 成都"
   employer         :
   pubmed           : 
   googlescholar    :

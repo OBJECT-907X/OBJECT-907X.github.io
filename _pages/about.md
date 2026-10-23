@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: ""
-excerpt: "Yiding Lu — Ph.D. student at Sichuan University. Research in virtual cells, multimodal learning, and deep clustering."
+excerpt: "鲁一丁，四川大学计算机科学与技术专业博士研究生，研究方向为虚拟细胞、多模态学习与深度聚类。"
 author_profile: true
 redirect_from:
   - /about/
@@ -10,53 +10,53 @@ redirect_from:
 
 <span class="anchor" id="about-me"></span>
 
-I am a Ph.D. student in Computer Science and Technology at [Sichuan University](https://www.scu.edu.cn/), advised by [Prof. Xi Peng](https://pengxi.me/) in the [XLearning Lab](https://xlearning-lab.com/). I received my bachelor’s degree in Computer Science and Technology from Sichuan University in 2022 and expect to complete my Ph.D. in June 2028.
+我是**鲁一丁（Yiding Lu）**，目前是[四川大学](https://www.scu.edu.cn/)计算机学院计算机科学与技术专业的直博研究生，在 [XLearning Lab](https://xlearning-lab.com/) 开展研究，导师为[彭玺教授](https://pengxi.me/)。我于 2022 年在四川大学获得本科学历，预计于 **2028 年 6 月博士毕业**。
 
-My research focuses on **virtual cells and cellular perturbation prediction**, **multimodal learning**, and **deep clustering**. My work spans learning from incomplete multi-view data, using vision-language models for interactive retrieval, and predicting cellular responses to perturbations. I am interested in AI Researcher opportunities at the intersection of machine learning and scientific discovery.
+我的研究方向包括**虚拟细胞与细胞扰动预测、多模态学习、深度聚类**。已有工作涵盖不完整多视图数据的表示学习、基于视觉语言模型的交互式检索，以及细胞对扰动的响应预测。希望在博士毕业后从事 **AI Researcher** 相关工作，关注机器学习方法在科学发现中的应用。
 
 <div class="research-highlight">
-  <strong>2025 Virtual Cell Challenge — Global Runner-up</strong>
-  <p>Our XLearning Lab team placed second in Arc Institute’s inaugural Virtual Cell Challenge, which evaluates models for predicting cellular responses to genetic perturbations. <a href="https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up" target="_blank" rel="noopener noreferrer">Official announcement <span aria-hidden="true">↗</span></a></p>
+  <strong>2025 虚拟细胞挑战赛 · 全球亚军</strong>
+  <p>所在的 XLearning Lab 团队在 Arc Institute 首届 Virtual Cell Challenge 中获得全球第二名，竞赛任务为预测细胞对基因扰动的响应。<a href="https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up" target="_blank" rel="noopener noreferrer">主办方公告 <span aria-hidden="true">↗</span></a></p>
 </div>
 
-<h1 id="publications">Publications</h1>
-<p class="section-note">Published work. My name is shown in bold; * denotes equal contribution.</p>
+<h1 id="publications">学术论文</h1>
+<p class="section-note">以下为正式发表的论文，姓名加粗；* 表示共同第一作者。</p>
 
 {% for paper in site.data.publications %}
   {% include publication.html paper=paper %}
 {% endfor %}
 
-<h1 id="honors-and-awards">Honors &amp; Awards</h1>
+<h1 id="honors-and-awards">荣誉与获奖</h1>
 
 <div class="award-feature">
   <div class="award-year">2025</div>
   <div>
-    <h2>Global Runner-up · Virtual Cell Challenge</h2>
-    <p>Team XLearning Lab · Arc Institute</p>
-    <p>Predicting gene expression responses to genetic perturbations. <a href="https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up" target="_blank" rel="noopener noreferrer">Results</a></p>
+    <h2>全球亚军 · 虚拟细胞挑战赛</h2>
+    <p>Virtual Cell Challenge · XLearning Lab 团队</p>
+    <p>主办方：Arc Institute。<a href="https://arcinstitute.org/news/virtual-cell-challenge-2025-wrap-up" target="_blank" rel="noopener noreferrer">获奖公告</a></p>
   </div>
 </div>
 
-<h2 class="subsection-title">Programming competitions</h2>
+<h2 class="subsection-title">程序设计竞赛</h2>
 <ul class="award-list">
-  <li><span class="award-year">2020</span><span><strong>Silver Medal</strong> · ICPC Asia Regional Contest, Shanghai</span></li>
-  <li><span class="award-year">2020</span><span><strong>Silver Medal</strong> · China Collegiate Programming Contest (CCPC), Qinhuangdao</span></li>
-  <li><span class="award-year">2020</span><span><strong>Silver Medal</strong> · China Collegiate Programming Contest (CCPC), Changchun</span></li>
-  <li><span class="award-year">2019</span><span><strong>Silver Medal</strong> · ICPC Asia Regional Contest, Yinchuan</span></li>
+  <li><span class="award-year">2020</span><span><strong>银奖</strong> · ICPC 国际大学生程序设计竞赛亚洲区域赛 · 上海站</span></li>
+  <li><span class="award-year">2020</span><span><strong>银奖</strong> · CCPC 中国大学生程序设计竞赛 · 秦皇岛站</span></li>
+  <li><span class="award-year">2020</span><span><strong>银奖</strong> · CCPC 中国大学生程序设计竞赛 · 长春站</span></li>
+  <li><span class="award-year">2019</span><span><strong>银奖</strong> · ICPC 国际大学生程序设计竞赛亚洲区域赛 · 银川站</span></li>
 </ul>
 
-<h2 class="subsection-title">Scholarships</h2>
+<h2 class="subsection-title">奖学金</h2>
 <ul class="award-list">
-  <li><span class="award-year">2025</span><span>Doctoral Innovation Scholarship, Sichuan University</span></li>
-  <li><span class="award-year">2019–20</span><span>First-Class Comprehensive Scholarship, Sichuan University</span></li>
+  <li><span class="award-year">2025</span><span>四川大学博士生创新奖学金</span></li>
+  <li><span class="award-year">2019–20</span><span>四川大学综合一等奖学金</span></li>
 </ul>
 
-<h1 id="education">Education</h1>
+<h1 id="education">教育经历</h1>
 <div class="education-entry">
-  <div class="education-date">Sep. 2022 – Present</div>
-  <div><h2>Sichuan University</h2><p>Ph.D. in Computer Science and Technology<br>Advisor: Prof. Xi Peng · XLearning Lab<br><span class="muted">Expected graduation: June 2028</span></p></div>
+  <div class="education-date">2022.09 – 至今</div>
+  <div><h2>四川大学 · 计算机学院</h2><p>计算机科学与技术 · 直博<br>导师：彭玺教授 · XLearning Lab<br><span class="muted">预计毕业时间：2028 年 6 月</span></p></div>
 </div>
 <div class="education-entry">
-  <div class="education-date">Sep. 2018 – Jun. 2022</div>
-  <div><h2>Sichuan University</h2><p>Bachelor’s degree in Computer Science and Technology</p></div>
+  <div class="education-date">2018.09 – 2022.06</div>
+  <div><h2>四川大学 · 计算机学院</h2><p>计算机科学与技术 · 本科</p></div>
 </div>
